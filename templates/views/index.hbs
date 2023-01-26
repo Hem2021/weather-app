@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <base href="/">
+    <link rel="stylesheet"  type="text/css" href="/css/style.css">
+</head>
+<body>
+    <div id="mainContainer">
+
+        <header>
+            {{>header}}
+        </header>
+
+        {{>body}}
+        <form action="#">
+            <input type="text" name="add_name" id="add_name" placeholder="Location">
+            <input type="submit" name="add_submit" id="add_submit" value="Search">
+        </form>
+        <p id="m1"></p>
+        <p id="m2"></p>
+
+    </div>
+    <footer>
+        {{>footer}}
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>

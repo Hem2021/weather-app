@@ -1,0 +1,13 @@
+lorem ipsum ipsumlistening to port 3000
+^C
+hemantpanchariya@Hemhehemhemahhemantpanchariya@Hemants-Mhemantpanchariya@Hemants-MacBook-Air weatherapp % cd server
+hemantpanchariya@Hemants-MacBook-Air server % cd src
+hemantpanchariya@Hemants-MacBook-Air src % node server.js
+/Users/hemantpanchariya/Desktop/back_end/WeatherApp/server/src
+/Users/hemantpanchariya/Desktop/back_end/WeatherApp/server/src/server.js
+hemantpanchariya@Hemants-MacBook-Air src % 
+node server.js
+/Users/hemantpanchariya/Desktop/back_end/WeatherApp/server/src
+/Users/hemantpanchariya/Desktop/back_end/WeatherApp/server/src/server.js
+ONLINE
+
