@@ -14,7 +14,7 @@ fo.addEventListener('submit', (e)=>{
     var i = input.value;
     console.log(input.value);
     
-    const url = 'http://localhost:3000/weather?address='+input.value;
+    const url = '/weather?address='+input.value;
     
     fetch(url).then((response)=>{
         response.json().then((data)=>{
