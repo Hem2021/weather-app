@@ -5,6 +5,9 @@ const hbs = require('hbs')
 const geocode = require('./utility/geoCode')
 const forecast = require('./utility/forecast')
 const app = express()
+const PORT = process.env.PORT || 3000; //  App deployment platforms provide a unique value to env.PORT which we can set our server to listen upon    
+// if env.PORT remains undefined i.e. no online deployment is done then in this  case , 3000 is the default port our server will listen to
+
 
 const newPath = path.join(__dirname, '../Public')  //merges "src" and "Public" directory in one normalized directory
 const viewaddress = path.join(__dirname, '../templates/views')
@@ -91,6 +94,6 @@ app.get('*', (req, res) => {
 
 
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log('ONLINE');
 })
